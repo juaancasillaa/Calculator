@@ -12,13 +12,13 @@ body {
     background-color: #EEEDE7;
 }
 
-.calculator-box{
+.calculatorBox{
     position: relative;
     max-width: 300px;
     width: 100%;
     border-radius: 12px;
     padding: 10px 20px 20px;
-    background-color: #fff;
+    background-color: black;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
 }
 
@@ -30,6 +30,7 @@ body {
     text-align: right;
     margin-bottom: 10px;
     font-size: 25px;
+    pointer-events: none;
 }
 
 .buttons {
