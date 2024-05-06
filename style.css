@@ -46,3 +46,16 @@ body {
     background-color: #eee;
     cursor: pointer;
 }
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .calculatorBox {
+        max-width: 300px; /* Adjust max-width for tablets */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .calculatorBox {
+        max-width: 250px; /* Adjust max-width for mobile */
+    }
+}
